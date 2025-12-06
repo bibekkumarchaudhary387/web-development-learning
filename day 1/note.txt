@@ -1,0 +1,46 @@
+1.1 What is HTML?
+HTML (HyperText Markup Language) is the standard language used to create the structure of Web pages. It defines what appears on the webpage: text, headings, images, links, lists, forms, etc.
+HTML is not a programming language. Its a markup language.
+
+1.2 Basic structure of an HTML Document
+<!DOCTYPE  html>
+<html>
+<head>
+<title>My first page</title>
+</head>
+<body>
+<h1>Hello World</h1>
+</body>
+</html>
+
+Explanation:
+<!DOCTYPE html> --> tells browser the page uses HTML5
+<html> --> root of the Document
+<head> --> contains metadata, title, links
+<body> --> contains everything visible on the page
+
+1.3 Essential HTML Tags
+<h1> - <h6> --> headings
+<p> --> paragraph
+<br> --> line break
+<hr> --> horizontal line
+<strong> --> bold text
+<em> --> italic text
+<!--comment--> --> comments
+
+1.4 Heading Tags
+<h1>Main Heading</h1>
+<h2>Sub Heading</h2>
+<h3>Small Heading</h3>
+
+* use only one <h1> per page (SEO rule)
+
+1.5 paragraph Tag
+<p>This is paragraph of text.</p>
+
+1.6 Line break and horizontal line
+<br> <!--New line-->
+<hr> <!--horizontal line-->
+
+1.7 Comments (not visible on the page)
+<!--This is a comment-->
