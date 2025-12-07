@@ -1,0 +1,43 @@
+
+2.1 Anchor Tag (Link)
+    <a href="https://example.com">Click here!</a>
+
+<a> --> amchor tah
+href="" --> hyperlink reference (destination)
+linktext ---> visible clickable text
+
+2.2 Types of Links
+    2.2.1 Open link in same tab
+        <a href="https://google.com">Google</a>
+    
+    2.2.2 Open link in new tab
+        <a href="https://google.com" target="_blank">Google</a>
+    
+    2.2.3 Link to another page of your website
+        <a href="about.html">About Page</a>
+    
+    2.2.4 Email Links
+        <a href="mailto:example@gmail.com">Send Email</a>
+    
+2.3 Image Tag <img>
+    <img src="image.jpg" alt="decsription">
+
+    important attributes
+    src --> image file path
+    alt --> text shown if image fails to load
+    width="" --> widht of image
+    height="" --> height of image
+
+    <img src="profile.jpg" alt="my photo" widht="300">
+
+2.4 Absolute vs Relative path
+    Absolute (full URL)
+        <img src="https://emaple.com/photo.jpg">
+
+    Relative (local file inside project folder)
+        <img src="images/photo.jpg">
+    
+2.5 linking an Image (clickable image)
+    <a href="https"//youtube.com" target="_blank">
+        <img src="logo.png" alt="youtube logo">
+    </a>
