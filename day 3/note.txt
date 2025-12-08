@@ -1,0 +1,73 @@
+HTML Lists & Tables
+
+3.1 Types of List in HTML
+
+    a. Unordered list (<ul>)
+        --> bullet points
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Orange</li>
+        </ul>
+
+    b. Ordered list (<ol>)
+        --> numbering
+        <ol>
+            <li>Nepal</li>
+            <li>India</li>
+            <li>China</li>
+        </ol>
+    
+        Types of numbering
+        <ol type="A"> --> A, B, C, D
+        <ol type="a"> --> a, b, c, D
+        <ol type="I"> --> I, II, III, IV
+        <ol type="i"> --> i, ii, iii, IV
+    
+    c. Nested list (list inside list)
+        <ul>
+            <li>Countries
+                <ul>
+                    <li>Nepal</li>
+                    <li>Japan</li>
+                </ul>
+            </li>
+        </ul>
+
+3.2 Tables in HTML
+    --> Tables represent structured data (rows & columns)
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Bibek</td>
+            <td>21</td>
+        </tr>
+    </table>
+
+    Table Tags
+        <table> --> Table wrapper
+        <tr>    --> Table row
+        <th>    --> Table header (bold & strong)
+        <td>    --> Table data (normal cell)
+
+3.3 Adding Borders and Spacing
+    <table border="1">
+        <tr>
+            <th>Country</th>
+            <th>Capital</th>
+        </tr>
+        <tr>
+            <td>Nepal</td>
+            <td>Kathmandu</td>
+        </tr>
+    </table>
+
+3.4 Merging cells: colspan & rowspan
+    Merge columns:
+        <td colspan="2">Full widht</td>
+    Merge rows:
+        <td rowspan="2">Same Value</td>
