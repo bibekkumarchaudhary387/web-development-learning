@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D4Q2</title>
+</head>
+<body>
+<!--Task 2 – Create a Registration Form
+With:
+Full Name
+Age
+Gender (radio)
+Country (select dropdown)
+Interests (checkboxes)
+Submit & Reset buttons-->
+<h1>Registration Form</h1>
+<form action="">
+<label for="fullname">Fullname: </label>
+<input type="text" name="fullname" id="fullname" required><br>
+
+<label for="age">Age: </label>
+<input type="number" name="age" id="age"><br><br>
+
+<strong>Gender:</strong><br>
+<label for="male"><input type="radio" name="gender" id="male">Male</label><br>
+<label for="female"><input type="radio" name="gender" id="female">Female</label><br><br>
+
+<select name="Country" id="Country">
+    <option value="nepal">Nepal</option>
+    <option value="india">India</option>
+    <option value="japan">Japan</option>
+</select><br><br>
+
+<strong>Interest:</strong><br>
+<label for="football"><input type="checkbox" name="games" id="football">Football</label><br>
+<label for="cricket"><input type="checkbox" name="games" id="cricket">Cricket</label><br>
+<label for="basketball"><input type="checkbox" name="games" id="basketball">Basket Ball</label><br><br>
+
+<button type="submit">Submit</button><br><br>
+<button type="reset">Reset</button>
+</form>
+</body>
+</html>

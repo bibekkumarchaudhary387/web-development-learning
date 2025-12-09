@@ -1,0 +1,73 @@
+HTML Forms (Inputs, Buttons, Labels, Selects, Textarea)
+
+4.1 What is Form?
+    Forms are used to collect user information such as:
+        -> login details
+        -> contact message
+        -> survey data
+        -> registrations
+        -> search queries
+    
+    form tag:
+        <form>
+            ...
+        </form>
+
+4.2 Input Elements
+    Text Input
+        <input type="text" placeholder="Your name">
+    
+    Email Input
+        <input type="email" placeholder="Enter email">
+    
+    Password Input
+        <input type="Password" placeholder="Enter password">
+
+    Number Input
+        <input type="number" min="1" max="100">
+
+    Date Input
+        <input type="date">
+
+    Radio Buttons (choose one)
+        <label><input type="radio" name="gender" value="male">Male</label>
+        <label><input type="radio" name="gender" value="female">female</label>
+    
+    Checkboxs (choose many)
+        <label><input type="checkbox">I agree</label>
+    
+4.3 Labels 
+    Lables improves accessibility
+        <label for="fullname">Full Name</label>
+        <label for="Fullname" type="text">
+
+4.4 Textarea (long text input)
+    <textarea rows="4" cols="40" placeholder="Type your message"></textarea>
+
+4.5 Dropdown (Select Box)
+    <select>
+        <option>Nepal</option>
+        <option>India</option>
+        <option>Japan</option>
+    </Select>
+
+4.6 Buttons
+    Submit Button
+        <button type="submit">Submit</button>
+    
+    Normal Button
+        <button type="button">Click me</button>
+
+4.7 Form Example (Simple contact form)
+    <form>
+        <label>NameL</label>
+        <input type="text">
+
+        <label>Email:</label>
+        <input type="email">
+
+        <label>Message</label>
+        <textarea></textarea>
+
+        <button type="submit">Send</button>
+        </form>   
