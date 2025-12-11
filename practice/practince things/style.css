@@ -1,0 +1,56 @@
+/* external css is here */
+
+input {
+    margin: 2px 10px 10px 5px;
+}
+.container label {
+    font-size: 20px;
+}
+.container input {
+    width: 400px;
+    height: 25px;
+}
+
+#submit {
+    background-color: rgb(44, 121, 246);
+    height: 50px;
+    width: 100px;
+    margin: 5% 35% 0% 40%;
+    border-radius: 20%;
+}
+
+#submit:hover {
+    background-color: blue;
+    width: 110px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+}
+
+li a:hover {
+    color: red;
+}
+li a:visited {
+    color:blue;
+}
+
+input:active {
+    background-color: black;
+    color: white;
+}
+
+p::before {
+    content: "About Nihareeka College,";
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p::after {
+    content: "Thank you for visiting.";
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
