@@ -9,6 +9,7 @@ input {
 .container input {
     width: 400px;
     height: 25px;
+    border-radius: 10px;
 }
 
 #submit {

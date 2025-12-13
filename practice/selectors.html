@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+</head>
+<style>
+    option[value="nepal"] {
+        background-color: red;
+    }
+    button[class="btn"] {
+        color: red;
+    }
+    a[href^="https://"] {
+        background: blue;
+        color: #fff;
+    }
+    a[href$=".in"] {
+        background: red;
+    }
+    a[href|="book"] { /*not working*/
+        color: aliceblue;
+    }
+    .para {
+        color:red; /*by name*/
+    }
+    .p {
+        color: rgb(150,0,45); /*by rgb*/
+    }
+    .font {
+        font-family:'Courier New', Courier, monospace;
+    }
+
+
+</style>
+<body>
+    <!--
+    1. go to google font
+    2. search for poppins
+    3. add font
+    4. click on import
+    5. add that line in css section
+    -->
+    <p class="font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus tempore, assumenda animi dignissimos in aspernatur sunt laborum iure itaque sint!</p>
+    <p class="para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, quod.
+    </p>
+    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, id?</p>
+    <select name="country" id="country">
+        <option value="nepal">Nepal</option>
+        <option value="india">India</option>
+        <option value="china">China</option>
+        <option value="japan">Japan</option>
+        <option value="usa">America</option>
+    </select>
+    <a href="https://www.google.com" target="_blank">Google</a><br>
+    <a href="www.youtube.com.in">Youtube</a>
+    <a href="facebook.com">Facebook</a>
+    <button class="btn">Sign up</button>
+    <button>Sign in</button>
+</body>
+</html>
