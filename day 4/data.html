@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Form</title>
+</head>
+<body>
+<!--Task: Create a file data.html.
+Table: Create a simple Marksheet table:
+Row 1 (Header): Student Name, Subjects (Colspan 2), Total Marks.
+Row 2 (Data): Bibek, Web Tech (80), C Programming (70), 150.
+Form: Create a simple Registration Form using the POST method:
+Full Name (Text input).
+Password (Password input).
+Gender (Radio buttons, named "gender").
+Subjects you like (Checkboxes, named "subject[]").
+A Submit button.-->
+<h1>Marksheet</h1>
+<table border="1">
+    <tr>
+        <th>Student Name</th>
+        <th colspan="2">Subject</th>
+        <th>Total Marks</th>
+    </tr>
+    <tr>
+        <td>Bibek</td>
+        <td>Web Tech (80)</td>
+        <td>C programming (70)</td>
+        <td>150</td>
+    </tr>
+</table>
+<h1>Registration Form</h1>
+<form action="#" method="post">
+<label for="fullname">Full Name: </label>
+<input type="text" name="fullname" id="fullname"><br>
+<label for="password">Password: </label>
+<input type="password" name="password" id="password"><br>
+<label for="Gender">Gender</label><br>
+<label for="male"><input type="radio" name="gender" id="Male">Male</label>
+<label for="female"><input type="radio" name="gender" id="female">Female</label><br>
+<label for="favoritesubjects:">Favorite Subject: </label><br>
+<label for="statistics"><input type="checkbox" name="favoritesubjects" id="statistics">Statistics</label>
+<label for="webtechnology"><input type="checkbox" name="favoritesubjects" id="webtechnology">Web Technology</label>
+<label for="dsa"><input type="checkbox" name="favoritesubjects" id="dsa">DSA</label>
+<label for="java"><input type="checkbox" name="favoritesubjects" id="java">Java</label>
+<label for="sad"><input type="checkbox" name="favoritesubjects" id="sad">System, Analyze and Design</label>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>
