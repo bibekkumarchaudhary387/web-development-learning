@@ -1,0 +1,19 @@
+/*CSS (style.css):
+
+Use an Element Selector to set all p text color to red.
+
+Use a Class Selector (.highlight) to set the background to yellow.
+
+Use an ID Selector to set #main-title text color to green.*/
+
+p {
+    color:red;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#main-title {
+    color: green;
+}
