@@ -1,0 +1,26 @@
+/*CSS (style.css):
+Apply box-sizing: border-box; universally (*).
+Set #container to width: 80% and center it (margin: 0 auto;).
+Set .box to:
+width: 250px;
+padding: 15px;
+border: 5px solid black;
+margin: 20px;
+Observe how the margin (outside) and padding (inside) affect the space.*/
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box {
+    width: 250px;
+    padding: 15px;
+    border: 5px solid black;
+    margin: 20px;
+
+}
