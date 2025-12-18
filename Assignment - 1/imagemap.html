@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Image Map Example</title>
+</head>
+<body>
+
+    <h2>Interactive Image Map</h2>
+    <p>Click on the different shapes in the image below to navigate:</p>
+
+    <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+    <map name="workmap">
+        
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html">
+
+        <area shape="circle" coords="337,300,44" alt="Coffee Cup" href="coffee.html">
+
+        <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329" alt="Phone" href="phone.html">
+        
+    </map>
+
+    </body>
+</html>
