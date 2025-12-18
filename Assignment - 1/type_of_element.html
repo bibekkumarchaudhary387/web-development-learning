@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Block vs Inline Elements</title>
+    <style>
+        /* Adding colors so you can see the space each element takes */
+        .block-demo { background-color: lightcoral; border: 1px solid black; }
+        .inline-demo { background-color: yellow; border: 1px solid black; }
+    </style>
+</head>
+<body>
+
+    <div class="block-demo">
+        This is a DIV (Block-level). Notice it stretches from left to right.
+    </div>
+    
+    <p class="block-demo">
+        This is a Paragraph (Block-level). Even though this text is short, 
+        the next element will still start on a new line.
+    </p>
+
+
+    <span class="inline-demo">This is a SPAN (Inline).</span>
+    <span class="inline-demo">Another SPAN (Inline).</span>
+    
+    <p>
+        You can also put an <a href="#" class="inline-demo">Inline Link</a> 
+        inside a block-level paragraph.
+    </p>
+
+
+    <p>Below is a horizontal rule (Void element):</p>
+    <hr> <p>Below is an image (Void element):</p>
+    <img src="../practice/resources/demo.jpg" alt="Void Element Demo">
+
+</body>
+</html>
