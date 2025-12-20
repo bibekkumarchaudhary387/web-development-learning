@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Form</title>
+</head>
+<body>
+<!--Task: Update your data.html or create advanced_form.html.
+Grouped Inputs: Create a form with two <fieldset> groups: "Personal Details" and "Course Preferences".
+Dropdown: Inside "Course Preferences", add a <select> menu for "Choose your Semester" (1st to 8th).
+Textarea: Add a "Short Bio" section with a 5-row textarea.
+
+File Upload: Add an input for "Upload Citizenship Photo".-->
+<h1>Registration Form</h1>
+<form action="#" method="post" enctype="multipart/form-data">
+    <fieldset>
+        <legend> Personal Details </legend>
+<label for="fullname">Full Name: </label>
+<input type="text" name="fullname" id="fullname"><br>
+<label for="password">Password: </label>
+<input type="password" name="password" id="password"><br>
+<label for="Gender">Gender</label><br>
+<label for="male"><input type="radio" name="gender" id="Male">Male</label>
+<label for="female"><input type="radio" name="gender" id="female">Female</label><br>
+<label for="favoritesubjects:">Favorite Subject: </label><br>
+<label for="statistics"><input type="checkbox" name="favoritesubjects" id="statistics">Statistics</label>
+<label for="webtechnology"><input type="checkbox" name="favoritesubjects" id="webtechnology">Web Technology</label>
+<label for="dsa"><input type="checkbox" name="favoritesubjects" id="dsa">DSA</label>
+<label for="java"><input type="checkbox" name="favoritesubjects" id="java">Java</label>
+<label for="sad"><input type="checkbox" name="favoritesubjects" id="sad">System, Analyze and Design</label>
+<button type="submit">Submit</button>
+</fieldset>
+
+<fieldset>
+<legend>Course Reference</legend>
+<h2>Course Reference</h2>
+<select name="course" id="course">
+    <option value="first">1st Sem</option>
+    <option value="second">2nd Sem</option>
+    <option value="third">3rd Sem</option>
+    <option value="forth">4th Sem</option>
+    <option value="fifth">5th Sem</option>
+    <option value="sixth">6th Sem</option>
+    <option value="seventh">7th Sem</option>
+    <option value="eigth">8th Sem</option>
+</select><br><br>
+
+<textarea name="bio-data" id="bio" rows="5" cols="20">Short Bio</textarea><br>
+
+<label>Upload Your Citizenship:<input type="file" name="Citizenship" id="Citizenship"></label><br>
+
+<button type="submit">Submit</button>
+</fieldset><br>
+
+</form>
+</body>
+</html>
