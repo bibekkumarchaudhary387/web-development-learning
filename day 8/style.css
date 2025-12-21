@@ -1,0 +1,16 @@
+nav ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.main-content {
+    display: flex;
+}
+.main-conent .sidebar {
+    width: 30%;
+}
+
+.main-conent .content {
+    width: 70%;
+}
