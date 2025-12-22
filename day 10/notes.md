@@ -5,15 +5,15 @@
 
 10.2 The <frameset> Tag:
 -> This is the container that defines how the window is divided. It is uses two main attributes.
-  *bullet* divides the window horizonally (e.g rows="20%, 80%").
-  *bullet* divides the window vetically (e.g, cols= "15%, *"). The * means take the remaining space.
+   divides the window horizonally (e.g rows="20%, 80%").
+   divides the window vetically (e.g, cols= "15%, *"). The * means take the remaining space.
 
 10.3 The <frame> Tag:
 -> This tag defines the content for each section created by the frameset.
- *bullet* src -> The URL of the page to load in the frame.
- *bullet* name -> A unique name for the frame (used to rarget links).
- *bullet* noresize -> Prevents the user from draggin the frame border to chnage, its size.
- *bullet* scrolling -> can be set to yes, no and auto
+  src -> The URL of the page to load in the frame.
+  name -> A unique name for the frame (used to rarget links).
+  noresize -> Prevents the user from draggin the frame border to chnage, its size.
+  scrolling -> can be set to yes, no and auto
 
 
 Practical Exercise
