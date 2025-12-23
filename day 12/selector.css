@@ -1,0 +1,14 @@
+div > p {
+    color: blue;
+}
+a:hover {
+    color: red;
+    font-size: large;
+}
+li:nth-child(even) {
+    background-color: lightgray;
+}
+p::first-letter {
+    font-size: large;
+    font-weight: bold;
+}
