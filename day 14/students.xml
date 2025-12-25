@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college>
+<student id="1">
+<name>Bibek Kumar Chaudhary</name>
+<semester>3rd semester</semester>
+<faculty>BCA</faculty>
+</student>
+<student id="2">
+<name>SUmit Chy</name>
+<semester>2nd semester</semester>
+ <faculty>ELectricsl Engeering</faculty>
+</student>
+</college>
